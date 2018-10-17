@@ -1,6 +1,24 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+body {
+    background-image: url("images/sand.jpg");
+    background-attachment: fixed;
+    font-family: Baghdad, Times, serif;
+    margin: 100px;
+}
+h1, h2, h3 {
+    color: yellow;
+}
+
+
+p {
+
+}
+
+.poem {
+    list-style-type: none;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 300px;
 }
