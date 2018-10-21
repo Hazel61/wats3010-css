@@ -7,17 +7,14 @@ body {
     font-family: Baghdad, Times, serif;
     margin: 40px;
 }
-h1 {
-    color: yellow;
+h1, h3 {
+    color: #fff514;
 }
 
-aside {
-
-}
 
 
 .page-header {
- text-align: center;
+    text-align: center;
 }
 #content {
     border-radius: 10px;
@@ -47,42 +44,38 @@ aside {
     list-style-type: none;
 }
 
-.page-footer {
-    display: inline-block;
-    clear: both;
-    padding: 5px;
-    margin-top: 30px;
-    margin-left: 200px;
-    background-color: lavender;
-    border-radius: 10px;
-    width: 600px;
-
-}
 .page-footer li {
-        display: inline-block;
+        display: inline;
         padding-left: 5px;
         padding-right: 5px;
     }
 
+.page-footer .citation {
+    background-color: lavender;
+    margin-top: 20px;
+    margin-left: 200px;
+    clear:both;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+}
+.page-footer .citation:nth-child(1) {
+    display: inline-block;
+    float: left;
+    background-color: #a6859c;
 
-/*.page-footer .citation {*/
 
-    /*width: 30%;*/
-    /*background-color: lavender;*/
+}
+.page-footer .citation:nth-child(2) {
+    display: inline-block;
+    float: left;
+    background-color: #bfbfd9;
+}
 
-    /*padding: 10px;*/
-    /*border-radius: 10px;*/
-/*}*/
-/**/
-/*.page-footer:nth-child(0) {*/
-    /*float: left;*/
-    /*width: 30%;*/
-/**/
-/**/
-/*}*/
-/**/
-/*.page-footer:nth-child(1) {*/
-    /*float: right;*/
-    /*width: 30%;*/
-/**/
-/*}*/
+.page-footer p.page-credits {
+    clear:both;
+    display:inline-block;
+    background-color: linen;
+    float: right;
+    width: 30%
+}
