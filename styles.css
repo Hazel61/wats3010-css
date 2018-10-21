@@ -2,23 +2,78 @@
 /* One style is provided as example. */
 
 body {
-    background-image: url("images/sand.jpg");
+    background-image: url("images/Xanadu_on_Map_of_Asia.JPG");
     background-attachment: fixed;
     font-family: Baghdad, Times, serif;
-    margin: 100px;
+    margin: 40px;
 }
-h1, h2, h3 {
+h1 {
     color: yellow;
 }
 
-
-p {
+aside {
 
 }
 
+
+.page-header {
+ text-align: center;
+}
+#content {
+    border-radius: 10px;
+    background-color: linen;
+    float: right;
+    width: 600px;
+
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+}
+
+.more-info {
+    float: right;
+    width: 300px;
+    background-color: linen;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.more-info img {
+    width: 100%;
+}
 .poem {
     list-style-type: none;
-    font-size: 18px;
-    margin-top: 5px;
-    margin-left: 300px;
+}
+
+.page-footer {
+    display: block;
+    clear: both;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 200px;
+
+}
+
+.page-footer .citation {
+
+    /*width: 30%;*/
+    background-color: lavender;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page-footer:nth-child(0) {
+    float: left;
+    width: 30%;
+
+
+}
+
+.page-footer:nth-child(1) {
+    float: right;
+    width: 30%;
+
 }
