@@ -1,14 +1,22 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
+
+
 body {
     background-image: url("images/Xanadu_on_Map_of_Asia.JPG");
     background-attachment: fixed;
     font-family: Baghdad, Times, serif;
     margin: 40px;
+    line-height: 200%;
 }
+
 h1, h3 {
     color: #fff514;
+}
+
+h1, h2, h3 {
+    font-family: Palatino, serif;
 }
 
 .page-header {
@@ -19,7 +27,6 @@ h1, h3 {
     background-color: linen;
     float: left;
     width: 640px;
-
     font-size: 20px;
     /*margin-top: 5px;*/
     margin-left: 100px;
@@ -34,6 +41,7 @@ h1, h3 {
     padding: 20px;
     border-radius: 10px;
 }
+
  a {
     color: darkcyan;
 }
@@ -49,7 +57,7 @@ h1, h3 {
         display: inline;
         padding-left: 5px;
         padding-right: 5px;
-    }
+}
 
 .page-footer .citation {
     margin-top: 20px;
