@@ -11,8 +11,6 @@ h1, h3 {
     color: #fff514;
 }
 
-
-
 .page-header {
     text-align: center;
 }
@@ -20,21 +18,24 @@ h1, h3 {
     border-radius: 10px;
     background-color: linen;
     float: left;
-    width: 600px;
+    width: 640px;
 
     font-size: 20px;
-    margin-top: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /*margin-top: 5px;*/
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 10px;
 }
 
 .more-info {
     float: right;
-    width: 300px;
+    width: 340px;
     background-color: linen;
     padding: 20px;
     border-radius: 10px;
+}
+ a {
+    color: darkcyan;
 }
 
 .more-info img {
@@ -51,9 +52,8 @@ h1, h3 {
     }
 
 .page-footer .citation {
-    background-color: lavender;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 100px;
     clear:both;
     padding: 10px;
     border-radius: 10px;
@@ -62,8 +62,7 @@ h1, h3 {
 .page-footer .citation:nth-child(1) {
     display: inline-block;
     float: left;
-    background-color: #a6859c;
-
+    background-color: #d4c4cf;
 
 }
 .page-footer .citation:nth-child(2) {
@@ -77,5 +76,7 @@ h1, h3 {
     display:inline-block;
     background-color: linen;
     float: right;
-    width: 30%
+    width: 30%;
+    border-radius: 10px;
+    padding: 10px;
 }
