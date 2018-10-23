@@ -69,12 +69,14 @@ h1, h2, h3 {
     border-radius: 10px;
     width: 40%;
 }
+
 .page-footer .citation:nth-child(1) {
     display: inline-block;
     float: left;
     background-color: #d4c4cf;
 
 }
+
 .page-footer .citation:nth-child(2) {
     display: inline-block;
     float: left;
